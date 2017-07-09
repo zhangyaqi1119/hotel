@@ -1,0 +1,370 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow-x: hidden;
+    background: #F8F8F8;
+}
+.top{
+    border-bottom: 1px solid #cccccc;
+}
+.top a{
+    text-decoration: none;
+}
+.text-success1{
+    border-right:1px solid #cccccc;
+}
+.text-success span{
+    padding-top:5px;
+}
+.text-success a{
+     cursor: pointer;
+ }
+/*鼠标移入文字颜色改变*/
+.text-success a:hover,.top_right a:hover,.menu a:hover{
+    color: #5cb85c;
+}
+.top_right a{
+    padding-top: 10px;
+    padding-right: 20px;
+    color: black;
+}
+.top_right i{
+    font-size: 1.625rem;
+}
+
+.menu a{
+     cursor: pointer;
+     padding:20px;
+     text-decoration: none;
+ }
+.bg-parallaxa{
+    position: relative;
+}
+.bg-parallax{
+    margin-top: 40px;
+    border-top:5px solid #5cb85c;
+    height:660px;
+    background: url("../img/parallax/slide1.jpg") no-repeat fixed;
+    background-size: cover;
+}
+#bg-parallax_top{
+    z-index: 999;
+    position:absolute ;
+    top:130px;
+    color: white;
+}
+#bg-parallax_top .h4{
+    margin-top: 30px;
+    padding: 5px;
+}
+#bg-parallax_top .h4 p{
+    height: 25px;
+    line-height: 25px;
+}
+#bg-parallax_top1{
+    position:absolute ;
+    z-index: 999;
+    top:130px;
+    right:40px;
+    background-color: black;
+    opacity: 0.8;
+}
+#bg-parallax_top1 .content{
+    opacity: 1;
+    z-index:500;
+}
+#bg-parallax_top1 .content P{
+    color: white;
+}
+#bg-parallax_top>.h1{
+    font-size:2.375rem;
+    font-weight:bold;
+}
+.range{
+    margin-bottom: 10px;
+}
+.cir1,.cir2{
+    display: block;
+    float: left;
+    width: 10px;
+    height: 10px;
+    background: greenyellow;
+    border-radius: 5px;
+    position: relative;
+}
+.cir1{
+    top: -3px;
+    left:150px;
+}
+.cir2{
+    top: -3px;
+    left:300px;
+}
+.range_middle{
+    width: 36%;
+    height: 3px;
+    background: greenyellow;
+    position: relative;
+    left: 37%;
+}
+.tit{
+    font-size: 3rem;
+}
+.title1{
+  margin-top:50px;
+}
+.line>span{
+    display: inline-block;
+}
+.line>span:nth-child(1),.line>span:nth-child(3){
+    width: 40px;
+    height: 1px;
+    background:black;
+}
+.line>span.cir{
+    width: 10px;
+    height: 10px;
+    border:3px solid #5cb85c;
+    border-radius: 5px;
+    position: relative;
+    top: 4px;
+}
+.pic{
+    margin: 50px 0  80px 0;
+}
+.pic a{
+    text-decoration: none;
+}
+.pic .col-lg-3{
+    background: white;
+    margin-left: 85px;
+}
+.pic img{
+    width: 335px;
+    height: 210px;
+    margin-left: -15px;
+}
+.pic>div{
+    overflow: hidden;
+}
+.pic_img{
+    position: relative;
+}
+.pic_img:hover{
+    background: black;
+    opacity:0.7;
+}
+.add1{
+    position: absolute;
+    left: 105px;
+    top: -100px;
+    width: 100px;
+    height: 2px;
+    background: white;
+}
+.add2{
+    position: absolute;
+    left: 150px;
+    top: -155px;
+    width: 2px;
+    height: 100px;
+    background: white;
+}
+.p_content{
+    text-indent: 20px;
+}
+.money{
+    color: #5cb85c;
+    position: absolute;
+    left: 50px;
+}
+.animate_price{
+    animation: toleft 2s;
+}
+@keyframes toleft {
+    0%{left:60px}
+    50%{left:10px}
+    100%{left:60px}
+}
+.img{
+    background: url("../img/parallax/slide2.jpg") no-repeat fixed ;
+    height:400px;
+    background-size: cover;
+}
+.img_bg{
+    width:100%;
+    height: 400px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+.bg_slide2{
+    background: black;
+    position: relative;
+}
+.double{
+    position: relative;
+    top: 100px;
+}
+.double span{
+    font-size: 1.875rem;
+    display: inline-block;
+    margin:0px 10px 0px 10px;
+    border-right:none;
+}
+#double1{
+    font-size:2.5rem;
+    color: white;
+}
+#double2{
+    font-size:1.25rem;
+    color: white;
+}
+#double2 span{
+    color: #5cb85c;
+}
+.icon i{
+    border-right:none;!important;
+    font-size:1.875rem;
+}
+.p_content1{
+    color: #444;
+}
+.detail{
+    margin-left:-35px;
+}
+.wrap{
+    background: white;
+}
+.wrap1{
+    background: #F8F8F8;
+}
+.wrap1>div>img{
+    display: block;
+    margin:10px auto;
+}
+.wrap>.container>div>img{
+    display: block;
+    margin:10px auto;
+}
+.header-icon>{
+    display: block;
+    margin:10px auto;
+}
+ul li{
+      list-style: none;
+  }
+.ul_wrap{
+    width: 1349px;
+    height: 250px;
+    overflow: hidden;
+}
+.ul_wrap ul{
+    width: 2698px;
+    height: 200px;
+}
+ul li p{
+    padding: 4px;
+}
+ul li span.text-success{
+    border-right: none;!important;
+    padding: 8px;
+    text-indent: 20px;
+}
+ul li.discount{
+    width: 550px;
+    height: 200px;
+    float: left;
+    margin-left: 60px;
+    left: 75px;
+    position: relative;
+    background: white;
+    padding-bottom: 60px;
+
+}
+.overba{
+    width: 100%;
+    height: 660px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 178px;
+    z-index: 999;
+}
+ul li.discount>.img_wrap>img{
+    display: block;
+    margin:8px auto;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+}
+ul li.discount>.img_wrap{
+    display: inline-block;
+    background: white;
+    border:2px solid #eee;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    position: absolute;
+    bottom:-30px;
+}
+ul li.discount>.img_wrap>.img_p{
+    display: inline-block;
+    background: white;
+    border: 2px solid #eee;
+    width: 140px;
+    height: 40px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: -5px;
+    left: 370px;
+    padding:8px 0;
+}
+#mainMap{
+    margin-top: 50px;
+}
+.footer_top{
+    height: 3px;
+    background: #5cb85c;
+    margin-bottom: 50px;
+}
+.footer_detail a{
+    color: black;
+    font-weight:bold;
+}
+.footer_detail span{
+    color: #5cb85c;
+    font-weight:bold;
+}
+.footer_bottom{
+    margin-top: 50px;
+    background: #333;
+}
+.footer_bottom div{
+    padding: 5px;
+    color: white;
+}
+.footer_bottom div a{
+    padding:0 5px;
+    text-decoration: none;
+    color: #ccc;
+}
+.footer_bottom div a:hover{
+    color: white;
+}
+.header-icon img{
+    display: block;!important;
+    margin: 10px auto;!important;
+}
+.star{
+    font-size:2rem;
+}
+.star1,.star2{
+    font-size: 2rem;
+    color: white;
+}
+.green{
+    color: #5cb85c;
+}
+
